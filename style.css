@@ -12,10 +12,10 @@
   font-size: 20px;
   line-height: 27px;
   border-radius: 4px;
-  background-color:#FD6E0A;
-  color:#fff;
-  border:0;
-  padding:18px 35px;
+  background-color: #FD6E0A;
+  color: #fff;
+  border: 0;
+  padding: 18px 35px;
 }
 
 /* header and nav */
@@ -38,12 +38,36 @@ nav {
 
 nav ul {
   display: flex;
-  align-items:center;
+  align-items: center;
 
 }
 
 ul li {
   list-style: none;
   margin-right: 51px;
+
+}
+
+/* banner style */
+.banner {
+  margin: 0px 200px;
+  display: flex;
+  align-items: center;
+}
+
+.banner-title {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 61px;
+  color: #474747;
+}
+
+.banner-sub-title {
+  
+  font-weight: 700;
+  font-size: 85px;
+  line-height: 116px;
+  color: #181818;
+
 
 }
